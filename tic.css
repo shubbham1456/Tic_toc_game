@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(50, 227, 207) ;
+    text-align: center;
+    /* background-image: url(gong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+height: 60vmin;
+width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem; 
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    border: none;
+    color: rgba(203, 6, 6, 0.949);
+    background-color: rgb(246, 234, 7);
+}
+
+
+#re{
+    height: 8vmin;
+    width: 15vmin;
+    color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: rgb(54, 211, 11);
+    border: none;
+    font-weight: bold;
+
+}
+
+#ne{
+    height: 8vmin;
+    width: 15vmin;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.msg{
+height: 100vmin; 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#win{
+    color: rgb(1, 20, 5);
+      font-size: 15vmin;
+}
+
+.hide{
+display: none;
+}
+
+.tik{
+    font-weight: bold;
+
+}
